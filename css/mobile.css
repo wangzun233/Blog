@@ -1,0 +1,42 @@
+
+body{
+	
+	width: 100%;
+	
+}
+.side-bar{
+	float: none;
+	width: 100%;
+}
+.side-bar .nav a,
+.side-bar .tag-list a
+{	
+	transition: all 0.5s;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#menu-checkbox{
+	display: none;
+}
+#menu-checkbox:checked ~ .nav,
+#menu-checkbox:checked ~ .tag-list {
+	transition: all 0.5s;
+	display: none;
+}/*利用复选框实现下拉菜单效果*/
+#menu-toggle{
+	/*position: absolute;/*绝对位置可自己定义*/
+	width: 20%;
+}	
+.main{
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.main .article-list{
+	margin: 0;
+}
+label{
+	display: block;
+}
+

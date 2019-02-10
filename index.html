@@ -5,15 +5,20 @@
 	<title>个人博客</title>
 	<link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<meta name="viewport" content="width=device-width,height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" media="(max-width:768px)" href="css/mobile.css"> <!-- css响应引入手机端 -->
+	<meta name="viewport" content="width=device-width,height=device-height, minimum-scale=1.0, maximum-scale=1.0"><!-- 引入css自适应 -->
+
 </head>
 
 <body>
+	<div class="body">
 	<div class="side-bar">
 		<div class="header">
-			<a class="logo" href="index.html">LOGO</a>
+			<a class="logo" href="index.html">WANGZUN</a>
 			<div class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  nemo </div>
 	    </div>
+	    <label id="menu-toggle" for="menu-checkbox">菜单 | 收起</label><!-- 给复选框传递信息并赋予名称 -->
+	    <input id="menu-checkbox" type="checkbox">
 		<div class="nav">
 			<a class="item" href="#">关于</a>
 			<a class="item" href="#">联系</a>
@@ -77,6 +82,7 @@
 			<div class="content">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nemo ea, magnam qui incidunt maxime commodi eveniet quam soluta, deserunt molestiae officiis adipisci assumenda, rerum, exercitationem architecto natus nihil quia.orem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nemo ea, magnam qui incidunt maxime commodi eveniet quam soluta, deserunt molestiae officiis adipisci assumenda, rerum, exercitationem architecto natus nihil quia.</div>
 		</div>
 		</div>
+	</div>
 	</div>
 	</div>
 </body>

@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;/*以边框开始计算两边的距离*/
 }
 a {
 	text-decoration: none;
@@ -9,8 +10,8 @@ a , body {
 	color: #fff;
 }
 body {
-  	background: #454545;
-  	line-height: 1.7;
+  background: #454545;
+  line-height: 1.7;
 	margin:0 auto; /*固定网页*/
 	width: 1920px;
 }
@@ -96,4 +97,10 @@ body {
 }
 .article-list > *{
 	padding: 10px 20px;
+}
+#menu-checkbox{
+	display: none;
+}
+label{
+	display: none;
 }
