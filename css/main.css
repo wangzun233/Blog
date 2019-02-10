@@ -9,14 +9,14 @@ a , body {
 	color: #fff;
 }
 body {
-  background: #454545;
-  line-height: 1.7;
-  width: 1920px;
-  height: 1080px;
+  	background: #454545;
+  	line-height: 1.7;
+	margin:0 auto; /*固定网页*/
+	width: 1920px;
 }
 .side-bar {
 	float: left;
-	width: 324px;
+	width: 20%;
 	/*position: fixed;  /*固定侧边栏*/*/
 }
 .side-bar > * {
