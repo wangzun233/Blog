@@ -1,16 +1,20 @@
 
 body{
-	
+
 	width: 100%;
-	
+
 }
 .side-bar{
 	float: none;
 	width: 100%;
+	position:static;	/* 恢复默认窗栏 */
+}
+.side-bar .waifu{
+	display: none;
 }
 .side-bar .nav a,
 .side-bar .tag-list a
-{	
+{
 	transition: all 0.5s;
 	margin: 20px auto;
 	text-align: center;
@@ -24,10 +28,19 @@ body{
 	transition: all 0.5s;
 	display: none;
 }/*利用复选框实现下拉菜单效果*/
+#menu-toggle:hover{
+	border: 3px solid #fff;
+}
 #menu-toggle{
 	/*position: absolute;/*绝对位置可自己定义*/
+	text-align:center;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	line-height: 0.1;
+	border: 3px dashed #fff;
+	border-radius: 10px;
 	width: 20%;
-}	
+}
 .main{
 	width: 100%;
 	padding-right: 10px;
@@ -39,4 +52,12 @@ body{
 label{
 	display: block;
 }
-
+#myBtn{
+	right: 10px;
+	width: 5px;
+	color: #777;
+	background-color: rgba(0,0,0,.0);
+}
+#myBtn:hover{
+	background-color: rgba(0,0,0,.0);
+}
